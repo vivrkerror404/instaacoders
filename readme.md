@@ -8,6 +8,15 @@ This project consists of a frontend and a backend:
 - A `jsconfig.json` file is used to make the `src` folder the base folder.
 - Additional dependencies used: `react-bootstrap`, `react-icons`, `react-star-ratings`.
 
+### Features
+
+- Add to cart
+- Product filters based on:
+  - Min - Max price
+  - Categories
+
+### netlify URL:
+`https://master--rainbow-platypus-163e25.netlify.app/`
 ## Backend
 
 - Created using `express-generator` at the backend.
@@ -15,7 +24,7 @@ This project consists of a frontend and a backend:
 - Development dependency: `mongoose` - to restart the Node.js server when crashed.
 - Backend API deployed on AWS Lambda using Serverless.
 
-## Backend API Endpoint
+### Backend API Endpoint
 
 The backend API is deployed on AWS Lambda and can be accessed using the following endpoint:
 
